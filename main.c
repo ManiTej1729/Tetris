@@ -95,7 +95,7 @@ void* update_thread(void* arg) {
 int main(int argc, char *argv[]) {
     // Initialize game data
     GameData game;
-    game.delay = 1000;
+    game.delay = 700;
     game.pts = 0;
     game.gameOver = 0;
     

@@ -2,7 +2,7 @@
 
 # Compiler and flags
 CC = gcc
-CFLAGS = -lncurses
+CFLAGS = -lncurses -lpthread
 SRC = main.c tetris.c
 TARGET = tetris
 
